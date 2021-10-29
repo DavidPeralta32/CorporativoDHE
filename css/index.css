@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* menu */
+.menu{
+    background-image: url('../img/fondoPantalla.jpg');
+    width: 100%;
+    height: 400px; 
+    background-position: center;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navBar{
+    background-color: rgb(46, 65, 94);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo-navbar{
+    font-size: 8px;
+}
+
+.navbar{
+    opacity: 0.6;
+}
+
+
+/* quienes somos */
