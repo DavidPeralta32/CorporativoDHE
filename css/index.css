@@ -4,15 +4,23 @@
     box-sizing: border-box;
 }
 
-/* menu */
-.menu{
-    background-image: url('../img/fondoPantalla.jpg');
-    width: 100%;
-    height: 400px; 
-    background-position: center;
-    padding: 1rem;
-    background-repeat: no-repeat;
-    background-size: cover;
+#quienes-somos, #misionVision, #equipoDHE , #social-media , #escribenos{
+    margin-top: 25px;
+}
+
+
+
+/* Menu */
+
+.carousel-inner{
+    height: 550px!important; 
+    background-size: cover!important;
+}
+
+.btn-slider{
+  width: 15px!important;
+  height: 15px!important;
+  border-radius: 50%!important;
 }
 
 #navBar{
@@ -32,3 +40,261 @@
 
 
 /* quienes somos */
+
+.quienesSomos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-quienes-somos{
+    width: 100%;
+    text-align: center;
+}
+
+.info-quienes-somos{
+    display: flex;
+    margin-top: 15px;
+}
+
+.video-quienesSomos{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-quienesSomos video{
+    width: 75%;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+
+.parrafo-quienes-somos{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo-quienes-somos p{
+    width: 70%;
+    font-size: 19px;
+    
+}
+
+/* mision vision valores */
+
+.contenedor-misionVision{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mision{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+
+.titutlo-mision{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: seagreen;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.imagen-misionVision{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.imagen-misionVision img{
+    width: 100%;
+    height: 200px;
+}
+
+.info-mision{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vision{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-mision{
+    
+    background-color: aqua;
+}
+
+.valores{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+/* equipo DHE */
+
+#equipoDHE{
+    height: 400px;
+    margin-bottom: 65px;
+}
+
+.titulosEquipoDHE{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* Social media */
+
+.social-media{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-social{
+    width: 100%;
+    text-align: center;
+}
+
+.info-social{
+    display: contents;
+    margin-top: 5px;
+}
+
+.social-redesSociales{
+    width: 100%;
+    
+}
+
+.social-imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-imagen img{
+    width: 80%;
+}
+
+.social-redesSociales i{
+    font-size: 25px;
+    color: black;
+}
+.social-redesSociales a{
+    margin-left: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Escribenos */
+.form-escribenos{
+    width: 100%;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.form-inputs{
+ width: 40%;
+ text-align: left;
+}
+
+textarea{
+    height: 200px;
+}
+
+.btn-form{
+    text-align: end;
+}
+
+.btn-form button{
+    font-size: 13px;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+} 
+
+.footer-social{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-sociales{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+}
+
+.footer-sociales i{
+    font-size: 25px;
+    margin-right: 15px;
+    color: #6a6565;
+}
+
+.footer-sociales p{
+    color:#6a6565
+}
+
+.footer-titulo {
+    width: 200px;
+    height: 35px;
+    padding: 8px;
+    background-color: #6a6565;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-titulo p{
+    color: white!important;
+    font-size: 15px;
+    
+}
+
+h1{
+    text-shadow: -20px -15px #6a6565;
+}
+
+h2{
+    text-shadow: -20px -15px #6a6565;
+}
