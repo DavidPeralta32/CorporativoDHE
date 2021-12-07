@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btnAgregarPubicacion{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+
+.sContenido{
+    /*        -ms-, -webkit-, -moz- son prefijos para compatibilidad con navegadores*/
+    width:350px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.sContenidotd{
+    /*        -ms-, -webkit-, -moz- son prefijos para compatibilidad con navegadores*/
+    width:350px;
+    max-height: 350px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.sContenidoModal{
+    /*        -ms-, -webkit-, -moz- son prefijos para compatibilidad con navegadores*/
+    width:100%;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+
+.ck.ck-balloon-panel {
+    z-index: 10054 !important;
+  }

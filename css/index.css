@@ -9,7 +9,6 @@
 }
 
 
-
 /* Menu */
 
 .carousel-inner{
@@ -30,12 +29,21 @@
     z-index: 10;
 }
 
-.logo-navbar{
+.logo-navbar{ 
     font-size: 8px;
 }
 
 .navbar{
     opacity: 0.6;
+}
+
+.nav-item a>i{
+    font-size: 22px;
+}
+
+.nav-item a>i:hover{
+    font-size: 25px;
+    opacity: 0.8;
 }
 
 
@@ -114,18 +122,20 @@
     height: 100px;
     display: flex;
     flex-wrap: wrap;
-    background-color: seagreen;
+    background-color: skyblue;
     justify-content: center;
     text-align: center;
     align-items: center;
     color: white;
 }
 
+
 .imagen-misionVision{
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
+    background-color: gre;
 }
 
 .imagen-misionVision img{
@@ -147,20 +157,44 @@
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    
 }
 
 .texto-mision{
-    
-    background-color: aqua;
+    width: 70%;
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
 }
 
 .valores{
     width: 25%;
+    height: 60px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    background-color: skyblue;
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    color: white;
 }
+.texto-valores{
+    width: 10%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
 
 
 
@@ -177,7 +211,6 @@
     text-align: center;
     margin-bottom: 20px;
 }
-
 
 
 /* Social media */
@@ -237,9 +270,11 @@
  text-align: left;
 }
 
-textarea{
-    height: 200px;
+.texto{
+    height: 100px;
+    width: 100px;
 }
+
 
 .btn-form{
     text-align: end;
@@ -263,12 +298,13 @@ textarea{
 .footer-sociales{
     display: flex;
     flex-direction: row;
-    padding-left: 15px;
+    justify-content: space-around;
+    padding-left: 8px;
 }
 
 .footer-sociales i{
     font-size: 25px;
-    margin-right: 15px;
+    margin-right: 10px;
     color: #6a6565;
 }
 
@@ -292,9 +328,11 @@ textarea{
 }
 
 h1{
+    text-align: center;
     text-shadow: -20px -15px #6a6565;
 }
 
 h2{
+    text-align: center;
     text-shadow: -20px -15px #6a6565;
 }
