@@ -12,7 +12,7 @@
 /* Menu */
 
 .carousel-inner{
-    height: 550px!important; 
+    height: 480px!important; 
     background-size: cover!important;
 }
 
@@ -20,6 +20,7 @@
   width: 15px!important;
   height: 15px!important;
   border-radius: 50%!important;
+  background-color: aqua !important;
 }
 
 #navBar{
@@ -39,6 +40,7 @@
 
 .nav-item a>i{
     font-size: 22px;
+
 }
 
 .nav-item a>i:hover{
@@ -75,11 +77,8 @@
 
 .video-quienesSomos video{
     width: 75%;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -ms-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
-    transform: skew(-20deg);
+    border-radius: 8px;
+   
 }
 
 .parrafo-quienes-somos{
@@ -329,10 +328,8 @@
 
 h1{
     text-align: center;
-    text-shadow: -20px -15px #6a6565;
 }
 
 h2{
     text-align: center;
-    text-shadow: -20px -15px #6a6565;
 }

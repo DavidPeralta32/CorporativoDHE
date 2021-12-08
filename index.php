@@ -66,7 +66,7 @@ use PHPMailer\PHPMailer\Exception;
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
-                    <a class="navbar-brand" href="#" style="font-size: 15px;"><img src="img/logo.png" class="logo-navbar"></a>               
+                    <a class="navbar-brand" href="#" style="font-size: 10px;"><img src="img/logo.png" style="height: 50px;" class="logo-navbar"></a>               
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                               <a class="nav-link active" aria-current="page" href="#quienes-somos" style="color: white;">¿Quiénes somos?</a>
@@ -87,7 +87,7 @@ use PHPMailer\PHPMailer\Exception;
                                 Noticias
                               </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Anuncios</a></li>
+                                  <li><a class="dropdown-item" href="./Views/anunciosView.php">Anuncios</a></li>
                                   <li><a class="dropdown-item" href="#">Comunidad</a></li>
                                   <li><a class="dropdown-item" href="#">Redes Sociales</a></li>
                                   <li><a class="dropdown-item" href="#">Proximos Eventos</a></li>
@@ -136,7 +136,7 @@ use PHPMailer\PHPMailer\Exception;
           </div>
           <div class="info-quienes-somos">
           <div class="video-quienesSomos">
-            <video src="img/Multimedia1.mp4" controls loops ></video>
+            <video src="img/Multimedia1.mp4" controls  autoplay loops></video>
           </div>
           <div class="parrafo-quienes-somos">
             <p>
@@ -205,7 +205,7 @@ use PHPMailer\PHPMailer\Exception;
                   <div class="col">
                     <div class=" py-4 text-black text-center">
                       <img src="img/victor.png" alt="" height="200px">
-                      <p> <strong>Victor Media A.</strong> <br>Analista de Proyectos</p>
+                      <p> <strong>Victor Medina A.</strong> <br>Analista de Proyectos</p>
                     </div>
                   </div>
                 </div>
@@ -290,6 +290,7 @@ use PHPMailer\PHPMailer\Exception;
             </div>
           </form>
         </div>
+        
         <div class="footer-social">
           <div class="footer-sociales">
             <a href="https://www.facebook.com/CorporativoDHE/"><i class="fab fa-facebook-square"></i>
